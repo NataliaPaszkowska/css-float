@@ -38,19 +38,28 @@ p:nth-child(2) {
 }
 #kotek {
  height: 100px;
- widows: 100px;
+ width: 100px;
  float: none;
  margin-bottom: 300px;
  display: inline-block;
- transition-property: all;
+transition-property: all;
  transition-duration: 5s;
  transition-timing-function: linear;
- transition-delay: 0.5s;
-}
+transition-delay: 0.5s;}
+    
+/*
+ transition: width 5s linear 0.5s, height 2s linear 0.5s;}
+*/
+
+/*transition: all 5s ease 0.5s;}*/
+/* transition-property: all;
+ transition-duration: 5s;
+ transition-timing-function: linear;
+ transition-delay: 0.5s;*/
 
 #kotek:hover {
- height: 100px;
- widows: 100px;
+ height: 200px;
+ width: 200px;
 }
     
     
@@ -64,4 +73,3 @@ p:nth-child(2) {
     
     
     
-}

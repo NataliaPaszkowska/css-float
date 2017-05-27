@@ -41,7 +41,12 @@ p:nth-child(2) {
  widows: 100px;
  float: none;
  margin-bottom: 300px;
- display: inline-block;}
+ display: inline-block;
+ transition-property: all;
+ transition-duration: 5s;
+ transition-timing-function: linear;
+ transition-delay: 0.5s;
+}
 
 #kotek:hover {
  height: 100px;

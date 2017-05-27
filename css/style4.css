@@ -1,6 +1,6 @@
 p {
     display: inline;
-    font-size: 2em;
+    font-size: 20px;
     color: #fff;
     width: 600px;
     margin-top: 60px;
@@ -32,4 +32,31 @@ a {
 
 img {
     float: right;
+}
+p:nth-child(2) {
+    clear: both;
+}
+#kotek {
+ height: 100px;
+ widows: 100px;
+ float: none;
+ margin-bottom: 300px;
+ display: inline-block;}
+
+#kotek:hover {
+ height: 100px;
+ widows: 100px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }

@@ -42,10 +42,10 @@ img {
  float: none;
  margin-bottom: 300px;
  display: inline-block;
-transition-property: all;
+ transition-property: all;
  transition-duration: 0.5s;
  transition-timing-function: linear;
-transition-delay: 0.5s;
+ transition-delay: 0.5s;
 }
     
 /*

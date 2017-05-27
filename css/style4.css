@@ -29,3 +29,7 @@ a {
     text-align: center;
     line-height: 100px;
 }
+
+img {
+    float: right;
+}
